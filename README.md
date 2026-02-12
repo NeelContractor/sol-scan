@@ -1,6 +1,9 @@
 # SOL SCAN
 
-Sol Scan lets you fetch all you tokens on mainnet, sol balance and recent transactions.
+Sol Scan lets you fetch all you tokens on mainnet, sol balance and recent transactions. currently swap logic is hardcoded.
+
+<img src="https://github.com/NeelContractor/sol-scan/blob/main/assets/HomePageImg.jpg" width="25%" height="25%">
+<img src="https://github.com/NeelContractor/sol-scan/blob/main/assets/SwapPageImg.jpg" width="25%" height="25%">
 
 ## Steps to Start
 
