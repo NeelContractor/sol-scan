@@ -12,10 +12,6 @@ import {
   Linking,
 } from "react-native";
 
-// ============================================
-// Solana RPC
-// ============================================
-
 const RPC = "https://api.mainnet-beta.solana.com";
 
 const rpc = async (method: string, params: any[]) => {
@@ -57,10 +53,6 @@ const getTxns = async (addr: string) => {
   }));
 };
 
-// ============================================
-// Helpers
-// ============================================
-
 const short = (s: string, n = 4) => `${s.slice(0, n)}...${s.slice(-n)}`;
 
 const timeAgo = (ts: number) => {
@@ -70,10 +62,6 @@ const timeAgo = (ts: number) => {
   if (sec < 86400) return `${Math.floor(sec / 3600)}h ago`;
   return `${Math.floor(sec / 86400)}d ago`;
 };
-
-// ============================================
-// Wallet Screen
-// ============================================
 
 export function WalletScreen() {
   const [address, setAddress] = useState("");
